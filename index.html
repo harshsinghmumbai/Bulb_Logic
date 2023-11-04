@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Logic Website</title>
+    <link rel="shortcut icon" href="favicon-3.ico" type="image/x-icon">
+    <!-- -----------------------------------------CDN FOR TAILWINDCSS------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body class="flex justify-center mt-5 bg-[#faebd7] ">
+
+    <!-- -----------------------Bigger Container---------------------------------------------- -->
+    <div class="border-2 border-black w-[35rem] h-[27rem] rounded-2xl relative bg-purple-100">
+
+        <!-- -----------------------Smallest Container---------------------------------------------- -->
+        <div class="border-2 border-black w-[20rem] h-[20rem] rounded-full m-auto mt-2" id="bulb">
+
+        </div>
+
+        <div
+            class="border-2 border-black w-[6.5rem] h-[6.25rem] rounded-t--full absolute top-[19.5rem] left-[14.25rem] bg-[#964B00]">
+
+            <p class="text-center mt-10 text-2xl font-semibold border-2 border-black w-[3rem] m-auto bg-white cursor-pointer"
+                id="Switch">OFF</p>
+
+        </div>
+    </div>
+</body>
+<script src="logical_part.js"></script>
+
+</html>
